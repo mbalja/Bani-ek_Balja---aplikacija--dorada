@@ -1,0 +1,66 @@
+/* large.css - za uređaje veće od 1024px */
+h1 {
+    font-size: 55px !important;
+}
+.biografija img {
+    max-width: 20%;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.manager-photo {
+    max-width: 42%;
+    margin-right: 100px;
+}
+
+.map {
+    width: 90%;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+@media (min-width: 1024px) {
+    .nav ul li {
+        display: inline;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .article {
+        flex-direction: row-reverse; 
+    }
+
+    .article img {
+        border-radius: 0 8px 8px 0; 
+    }
+
+    .article .text {
+        padding: 20px;
+        text-align: justify;
+    }
+    .carousel-item img {
+        max-height: 600px; 
+        object-fit: cover;
+    }
+}
+
+.biografija {
+    flex-direction: row;
+    justify-content: center;
+}
+.biografija img {
+    max-width: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.card h1 {
+    font-size: 36px !important;
+}
+

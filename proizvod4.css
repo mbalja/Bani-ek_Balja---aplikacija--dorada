@@ -1,0 +1,186 @@
+body {
+    background-color: #faf0e6; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-color: #faf0e6;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    font-size: 55px !important; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    font-family: 'Public Sans', sans-serif;
+}
+a {
+    color: black;
+}
+body,
+nav ul li a,
+.tab-content,
+h3,
+footer p {
+    font-family: 'Roboto', sans-serif; 
+}
+nav {
+    background-color: #faf0e6;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #d9b99b;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    background-color: #c49264;
+    color: #ffffff;
+    border-color: #c49264;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf0e6 !important;
+    color: #333;
+}
+.proizvod-kutija {
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: #d9b99b;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    
+}
+
+.product-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 0px;
+}
+.tab-content {
+    margin-top: 20px;
+    color: black !important;
+}
+.star-rating i {
+    color: #faf0e6;
+}
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+}
+.feature-list li {
+    margin-bottom: 10px;
+}
+.feature-list i {
+    color: #faf0e6;
+    margin-right: 10px;
+}
+.form-group label {
+    font-weight: bold;
+    color: black;
+}
+.btn-primary {
+    background-color: #faf0e6 !important;
+    border-color: #faf0e6!important;
+    color: black !important;
+}
+.btn-primary:hover {
+    background-color: #c49264 !important;
+    border-color: #c49264 !important;
+    color: white !important;
+}
+
+iframe {
+    border: none;
+}
+
+footer {
+    background-color: #d9b99b; 
+    padding: 20px 0;
+    text-align: left;
+    clear: both; 
+}
+
+footer i {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+footer .right {
+    text-align: right;
+    padding: 30px;
+}
+
+footer .right p {
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+    float: left;
+    width: 40%;
+}
+
+footer .middle p {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 30%;
+}
+
+.cijena {
+    font-size: 20px;
+}
+
+.naziv-proizvoda {
+    text-align: center;
+    font-size: 25px;
+}
+.nav-tabs .nav-link {
+    color: black !important;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #c49264 !important;
+    color: white !important;
+}
+
+#colorSelect option:hover {
+    background-color: #c49264 !important;
+    color: white !important;
+}
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="moda.css">
+    <script src="./moda.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/a9f17533f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="small.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="medium.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="large.css" media="screen and (min-width: 1025px)">
+
+    <title>Moda</title>
+</head>
+<body>
+    <header>
+        <h1>ZENDAYA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./Pocetna.html">Početna</a></li>
+            <li><a href="./o_zendayi.html">O Zendayi</a></li>
+            <li><a href="./Projekti.html">Projekti</a></li>
+            <li><a href="./Intervjui.html">Intervjui</a></li>
+            <li><a class="active" href="Moda.html">Moda</a></li>
+            <li><a href="./trgovina.html">Merch</a></li>
+            <li><a href="./kontakt.html">Kontakt</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+    </nav>
+    <div class="cijelo">
+    <div class="section-title"><b>Zendayine najbolje odjevne kombinacije</b></div>
+    <div class="biografija">
+        <div class="opis1">
+            <h2 id="rani_zivot">Law Roach</h2>
+            <p>Lawrence Roach američki je modni stilist, najpoznatiji po svom radu s umjetnicima kao što su Zendaya, Céline Dion i Anya Taylor-Joy. Osim toga, poznat je po vremenu koje je proveo služeći kao glavni sudac u Maxovoj natjecateljskoj seriji Legendary. Godine 2023. najavio je povlačenje iz te serije, posvetivši se modnom stiliziranju Zendaye.</p>
+        </div>
+        <img src="https://www.interviewmagazine.com/wp-content/uploads/2024/05/NUP_202786_00820-1-scaled.jpg" alt="Modni stilist Law Roach">
+    </div>
+    <div class="container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="https://i0.wp.com/jesuisbobo.com/wp-content/uploads/2018/05/MET_Zendaya-in-Atelier-Versace-featured-e1525779290721.jpg?fit=2067%2C1181&ssl=1" style="width:100%" alt="Zendaya na Met Gali 2018. godine">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="https://static.dezeen.com/uploads/2019/05/Zendaya_dezeen_hero1.jpg" style="width:100%" alt="Zendaya na Met Gali 2019. godine">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2024/02/GettyImages-2013893957-copy.jpg?w=1296" style="width:100%" alt="Zendaya na premijeri filma Dune 2 u New Yorku">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="https://cdn.mos.cms.futurecdn.net/nSSszMrwra6rYMo8VYwSmg-1280-80.jpg.webp" style="width:100%" alt="Zendaya na Met Gali 2024. godine">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="https://cdn.concreteplayground.com/content/uploads/2024/04/Challengers_London-premiere_01_Warner_supplied.jpg" style="width:100%" alt="Zendaya na premijeri filma Challengers u Londonu">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2024/05/Law-Roach-Zendaya-Getty-H-2024.jpg?w=1296" style="width:100%" alt="Zendaya sa svojim modnim stilistom Law Roachem">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <div class="row" style="margin-left: 0px; margin-right: 0px;">
+          <div class="column">
+            <img class="demo cursor" src="https://i0.wp.com/jesuisbobo.com/wp-content/uploads/2018/05/MET_Zendaya-in-Atelier-Versace-featured-e1525779290721.jpg?fit=2067%2C1181&ssl=1" style="width:100%" onclick="currentSlide(1)" alt="Zendaya na Met Gali 2018. godine">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://static.dezeen.com/uploads/2019/05/Zendaya_dezeen_hero1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Zendaya na Met Gali 2019. godine">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://www.hollywoodreporter.com/wp-content/uploads/2024/02/GettyImages-2013893957-copy.jpg?w=1296" style="width:100%" onclick="currentSlide(3)" alt="Zendaya na permijeri filma Dune 2 u New Yorku">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://cdn.mos.cms.futurecdn.net/nSSszMrwra6rYMo8VYwSmg-1280-80.jpg.webp" style="width:100%" onclick="currentSlide(4)" alt="Zendaya na Met Gali 2024. godine">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://cdn.concreteplayground.com/content/uploads/2024/04/Challengers_London-premiere_01_Warner_supplied.jpg" style="width:100%" onclick="currentSlide(5)" alt="Zendaya na premijeri filma Challengers u Londonu">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="https://www.hollywoodreporter.com/wp-content/uploads/2024/05/Law-Roach-Zendaya-Getty-H-2024.jpg?w=1296" style="width:100%" onclick="currentSlide(6)" alt="Zendaya sa svojim modnim stilistom Law Roachem">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+    </div>
+<footer>
+        <div>
+            <section class="left">
+                <br>
+                <a href="https://creativecommons.org/licenses/?lang=hr" target="_blank"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.png" alt="cc licenca" height="50"></a><br>
+                <br>
+                <p>2024 &copy; B&B</p><br>
+            </section>
+            <section class="middle">
+                <br>
+                <p><b>Korisnička podrška</b></p>
+                <br>
+                <p>Uvjeti korištenja</p>
+                <br>
+                <p>Privatnost podataka</p>
+                <br>
+                <p>Podrška</p>
+            </section>
+            <section class="right">
+                <p><b>Zendayu zapratite i na:</b></p>
+                <br>
+                <br>
+                <a href="https://www.instagram.com/zendaya/"><span style="color: black;"><i class="fa-brands fa-instagram fa-2xl"></i></span></a>
+                <a href="https://twitter.com/Zendaya"><span style="color: black;"><i class="fa-brands fa-square-x-twitter fa-2xl"></i></span></a>
+                <a href="https://twitter.com/Zendaya"><span style="color: black;"><i class="fa-brands fa-square-facebook fa-2xl"></i></span></a>
+            </section>
+        </div>
+    </footer> 
+</body>
+</html>
